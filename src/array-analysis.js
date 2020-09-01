@@ -1,10 +1,12 @@
 const arrayAnalysis = (arr) => {
-  length = arr.length
-  average = arr.reduce((a,b) => a + b, 0)/ arr.length;
-  min = Math.min(...arr)
-  max = Math.max(...arr)
-  
-  return { average, min, max, length}
-}
+  const { length } = arr;
+  const average = arr.reduce((a, b) => a + b, 0) / arr.length;
+  const min = Math.min(...arr);
+  const max = Math.max(...arr);
 
-module.exports = arrayAnalysis
+  return {
+    average, min, max, length,
+  };
+};
+
+module.exports = arrayAnalysis;
