@@ -3,7 +3,7 @@ This project demonstrates testing JavaScript files using Jest, its specification
 
 ## Web App Screenshots
 
-![](../images/app.png)
+![](./src/images/app.png)
 
 ## Built With
 
